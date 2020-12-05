@@ -2,9 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import setuptools
-import tokenize
-
+from setuptools import setup, Extension, Feature
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'curdpro.settings')
